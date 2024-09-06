@@ -1,4 +1,4 @@
-This is my simple tmux config file, with some simple indicator supports, use these vairable in your status_left or status_right
+This is my simple tmux config file for you to modify, with some simple indicator supports, use these variable in your status_left or status_right
 ![image](tmux.conf.png)
 
 1. mouse indicator: #{indicator_mouse}
