@@ -1,7 +1,9 @@
-This is my simple tmux config file for you to modify, with some simple indicator supports, use these variable in your status_left or status_right
 ![image](tmux.conf.png)
+This is my simple tmux config file for you to modify, with some simple indicator supports, all in one file (.tmux.conf).
+use indicators in your status_left or status_right.
 
-1. mouse indicator: #{indicator_mouse}
+supported indicators:
+1. mouse indicator: **#{indicator_mouse}**
 2. simple mode indicator: **${indicator_mode}** (not #{indicator_mode}), you can change to your own style in config file
 3. CPU temperature: **#{indicator_cpuTemperature}** require lm-sensors installed
 4. devices support hwmon temperature: **#{indicator_hwmon?}** to calculate average temperature for a device.
