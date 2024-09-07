@@ -11,3 +11,5 @@ This is my simple tmux config file for you to modify, with some simple indicator
 7. network speed: **#{indicator_netspeed_???}** to show your network speed history.
    - for example, my interface is br0, i will use **#{indicator_netspeed_br0}** to show.
    ![image](network_history.png)
+8. Memory usage: **#{indicator_memUsage}**
+
