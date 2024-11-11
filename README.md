@@ -12,6 +12,6 @@ supported indicators:
 6. CPU usage: **#{indicator_cpuUsage}**
 7. network speed: **#{indicator_netspeed_???}** to show your network speed history.
    - for example, my interface is br0, i will use **#{indicator_netspeed_br0}** to show.
-   ![image](network_history.png)
+   ![image](network_history.gif)
 8. Memory usage: **#{indicator_memUsage}**
 
