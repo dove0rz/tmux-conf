@@ -1,6 +1,11 @@
-![image](tmux.conf.png)
 This is my simple tmux config file for you to modify, with some simple indicator supports, all in one file (.tmux.conf).
 use indicators in your status_left or status_right.
+
+one line status bar
+![image](tmux.conf.png)
+
+two lines status bar
+![image](status_2_lines.png)
 
 supported indicators:
 1. mouse indicator: **#{indicator_mouse}**
